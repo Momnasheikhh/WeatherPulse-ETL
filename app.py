@@ -38,7 +38,7 @@ st.markdown("""
     }
     
     .stMetric label {
-        color: #5a7a9a !important;
+        color: #1e3a5f !important;
         font-size: 1.1rem !important;
         font-weight: 400 !important;
     }
@@ -95,6 +95,41 @@ st.markdown("""
         margin-bottom: 30px;
         color: #1e3a5f;
         box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+    }
+
+    /* Fix for Dark Widgets */
+    div[data-baseweb="select"] > div, div[data-baseweb="input"] > div {
+        background-color: white !important;
+        color: #1e3a5f !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    div[data-testid="stSidebar"] .stSelectbox label, div[data-testid="stSidebar"] .stTextInput label {
+        color: #1e3a5f !important;
+    }
+
+    input {
+        color: #1e3a5f !important;
+    }
+
+    /* Expander visibility fix - Normalized */
+    [data-testid="stExpander"] summary p, [data-testid="stExpander"] summary svg {
+        color: #1e3a5f !important;
+        font-weight: 600 !important;
+        fill: #1e3a5f !important;
+    }
+    
+    [data-testid="stExpander"] {
+        background: rgba(255, 255, 255, 0.8) !important;
+        border-radius: 15px !important;
+        border: 1px solid rgba(30, 58, 95, 0.2) !important;
+    }
+
+    /* Dataframe/Table visibility */
+    [data-testid="stTable"], [data-testid="stDataFrame"] {
+        background-color: white !important;
+        border-radius: 10px;
+        padding: 10px;
     }
 </style>
 """, unsafe_allow_html=True)
