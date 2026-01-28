@@ -1,0 +1,23 @@
+# Python Caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Project Specific
+cache/               # Local API response cache
+weather_history.csv  # Local database (optional, can be included if sample is needed)
+.env                 # Secrets and API Keys
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
