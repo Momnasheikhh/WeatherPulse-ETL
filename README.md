@@ -2,6 +2,9 @@
 
 **Weather Pulse** is a professional-grade weather monitoring system that combines a modular **ETL (Extract, Transform, Load)** pipeline with a premium **Streamlit** dashboard. It fetches real-time data, processes it into structured formats, and provides smart insights and visualizations.
 
+### 🚀 Live Demo
+[**Click here to view the live app**](https://weatherpulse-etl-duf95k5ztpvcpbobeckfq9.streamlit.app/)
+
 ---
 
 ## ✨ Key Features
